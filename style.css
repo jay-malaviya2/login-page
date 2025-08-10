@@ -1,0 +1,120 @@
+@import url(./fonts/PkgTTC-IosevkaSS04-33.2.6/IosevkaSS04-Bold.ttc);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: iosevkabold;
+}
+
+body {
+    background-image: url(./images/beach.jpg);
+    color: white;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 50px;
+
+}
+
+.menu {
+    width: 600px;
+    float: right;
+    height: 50px;
+    margin: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+}
+
+ul li a:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.navbar {
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+}
+
+.main {
+    justify-items: center;
+    height: 500px;
+}
+
+.logincontainer {
+    border: 2px solid white;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    justify-self: center;
+    border-radius: 20px;
+    background-color: rgba(60, 90, 70, 0.5);
+}
+
+h1 {
+    justify-self: center;
+    margin: 100px;
+}
+
+#email {
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#password {
+    margin: 0px 0px 10px 15px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.checkbox {
+    justify-content: space-between;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.button {
+    height: 30px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: iosevkabold;
+    src: url('./fonts/PkgTTC-IosevkaSS04-33.2.6/IosevkaSS04-Bold.ttc');
+}
