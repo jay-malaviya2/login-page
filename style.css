@@ -80,7 +80,7 @@ ul li a:hover {
 
 h1 {
     justify-self: center;
-    margin: 100px;
+    margin: 90px;
 }
 
 #email {
@@ -115,6 +115,10 @@ h1 {
     background-color: transparent;
 }
 
+.remember-txt:hover{
+    color: black;
+    background-color: transparent;
+}
 .button {
     height: 30px;
     width: 300px;
