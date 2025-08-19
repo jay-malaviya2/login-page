@@ -87,27 +87,32 @@ h1 {
     margin-bottom: 20px;
     height: 30px;
     border-radius: 5px;
-    border :1px solid ;
+    border: 1px solid;
     text-align: center;
     background-color: transparent;
     color: white;
-    /* margin-right: 10px; */
+    width: 200px;
 }
 
 #password {
     margin: 0px 0px 10px 15px;
     height: 30px;
     border-radius: 5px;
-     border :1px solid;
+    border: 1px solid;
     text-align: center;
     background-color: transparent;
     color: white;
+    width: 200px;
 }
 
 .checkbox {
-    justify-content: space-between;
     margin: 20px;
     text-decoration: none;
+}
+
+#checkbox:hover {
+    color: black;
+    background-color: transparent;
 }
 
 .button {
@@ -115,9 +120,14 @@ h1 {
     width: 300px;
     margin: 20px;
     border-radius: 5px;
-     border :1px solid white;
-     background-color: transparent;
-     color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
 }
 
 a {
@@ -125,10 +135,25 @@ a {
     color: white;
 }
 
-input::placeholder{
+a:hover {
+    color: black;
+    background-color: transparent;
+}
+
+input::placeholder {
     color: white;
 }
+
 @font-face {
     font-family: iosevkabold;
     src: url('./fonts/PkgTTC-IosevkaSS04-33.2.6/IosevkaSS04-Bold.ttc');
+}
+
+.d {
+    display: flex;
+    justify-content: center;
+}
+
+.a {
+    margin: 20px;
 }
